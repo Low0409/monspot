@@ -9,18 +9,19 @@ class ShinePage extends StatelessWidget {
           backgroundColor: Colors.yellow,
           actions: <Widget>[
             IconButton(
-              icon: Icon(Icons.room),
+              icon: const Icon(Icons.room),
               onPressed: () {},
             ),
           ],
           title: const Text('光スポット座標'),
         ),
         body: ListView(children: [
-          _menuItem("座標: x=32.134432, y=132.123432", Icon(Icons.room)),
-          _menuItem("座標: x=32.134432, y=132.123432", Icon(Icons.room)),
-          _menuItem("座標: x=32.134432, y=132.123432", Icon(Icons.room)),
-          _menuItem("座標: x=32.134432, y=132.123432", Icon(Icons.room)),          _menuItem("座標: x=32.134432, y=132.123432", Icon(Icons.room)),
-          _menuItem("座標: x=32.134432, y=132.123432", Icon(Icons.room)),
+          _menuItem("座標: x=32.134432, y=132.123432", const Icon(Icons.room)),
+          _menuItem("座標: x=32.134432, y=132.123432", const Icon(Icons.room)),
+          _menuItem("座標: x=32.134432, y=132.123432", const Icon(Icons.room)),
+          _menuItem("座標: x=32.134432, y=132.123432", const Icon(Icons.room)),
+          _menuItem("座標: x=32.134432, y=132.123432", const Icon(Icons.room)),
+          _menuItem("座標: x=32.134432, y=132.123432", const Icon(Icons.room)),
         ]),
       ),
     );
